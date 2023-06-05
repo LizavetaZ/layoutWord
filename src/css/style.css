@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    padding: 39px 0 60px 0;
+    min-height: 800px;
+    background: url('../img/main_bg.png') center center/cover no-repeat;
+}
+
+.logo .logo-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    text-align: center;
+}
+
+.simple {
+    position: relative;
+    text-align: center;
+}
+
+.simple h2 {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 80px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.simple .line {
+    position: absolute;
+    top: 50px;
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 100%;
+}
+
+.promo .promo-text {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.promo b {
+    color: #F9BF3B;
+}
+
+.promo .promo-btn, .container-4 .promo-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    font-size: 21px;
+    font-weight: 100;
+    align-items: center;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.more {
+    margin-top: 80px;
+}
+
+.more .more-text {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.more .more-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.container-2 {
+    /*фон второго блока*/
+    position: relative;
+    width: 1922px;
+    /*почему ширина как на сайте, но цвет не доходит до краев? может не ту ширину беру?*/
+    margin: 0 auto;
+    height: 607px;
+    background-color: #EFEFEF;
+}
+
+.container-2 .intensive {
+    /*Что вас ждет в нашем интенсиве?*/
+    padding-top: 85px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.small-line {
+    /*желтая линия*/
+    position: absolute;
+    background-color: #F9BF3B;
+    width: 220px;
+    height: 4px;
+    left: 851px;
+    top: 129px;
+}
+
+.container-2 .free {
+    /*текст про 2 вебинара*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 40px;
+}
+
+.icons {
+    /*родитель иконок*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    /*картинки иконок*/
+    margin: 50px auto 15px;
+    /*без нижнего маргина не получилось приподнять текст*/
+    position: relative;
+}
+
+.ic {
+    /*текст под иконками*/
+    width: 384px;
+    height: 43px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.optimisation {
+    margin: 40px auto 0;
+    /*без нижнего маргина женщина не достает до фона следующего блока*/
+    /*сам раздел-чтоб опустить голову дамы немного ниже*/
+}
+
+.lot-paragraphs {
+    /*фон с женщиной*/
+    width: 1379px;
+    height: 502px;
+    background-image: url('../img/woman_bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 auto;
+    background-color: #FFFFFF;
+    /*нужен ли он здесь?*/
+}
+
+.lot-paragraphs .what-is {
+    /*Что такое оптимизация и зачем она нужна?*/
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299CBD;
+    text-align: right;
+    padding-top: 60px;
+}
+
+.lot-paragraphs p {
+    /*абзацы рядом с женщиной*/
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-left: 750px;
+    margin-top: 20px;
+    width: 750px;
+}
+
+.container-3 {
+    /*фон третьего блока*/
+    position: relative;
+    width: 1920px;
+    height: 447px;
+    background: url('../img/second_bg.png') center center/cover no-repeat;
+    margin: 0 auto;
+}
+
+.container-3 h2 {
+    /*По окончании обучения Вы сможете!*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+    padding-top: 86px;
+}
+/* .presents {
+    /*фон пятого блока*     серый цвет не растягивается. фон либо цвет, либо картинка/
+    background-color: #EFEFEF;
+    height: 631px;
+    width: 1922px;
+    margin: 0 auto;
+} */
+.presents { /*фон можно экспортировать, но он не растягивается на весь экран*/
+    background-image: url('../img/Фон.png');
+    height: 631px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.gift { /*иконка подарка*/
+    margin: 88px 493px auto;
+    position: relative;
+}
+.final-text p { /*текст под подарком*/
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+    margin-top: 15px;
+}
+.first {
+    background-color: white;
+    height: 462px; /*предпослежний фон, высота-футер*/
+    width: 1140px;
+    margin: 0 auto;
+}
+.first .computer { /*иконка с компьютером*/
+    margin: 89px 399px auto;
+}
+.container-5 .web { /*текст под иконкой*/
+    color: #252525;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #252525;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.container-5 .sept { /*синий текст под иконкой*/
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #299CBD;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.container-5 .limited { /*текст под иконкой*/
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+.final { /*нижняя черная полоса*/
+    background-image: url('../icons/footer.png');
+    width: 1922px;
+    height: 169px;
+    margin: 0 auto;
+}
+.footer .contacts1 {
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+    padding-top: 60px;
+}
+.footer .contacts2 {
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
+.opportuinities-icons {
+    /*родитель кружочков*/
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* .opportuinities-icons .circles_new {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 240px;
+    height:240px;  
+    
+} */
+.opportuinities-icons .circles_new .circles_bg {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 115px;
+    height:115px;
+    border-radius: 100%;
+    background-color:#B4E2FF";
+   
+}
+.opportuinities-icons .icons-list { 
+text-align: center;
+font-size: 17px;
+line-height: 20px;
+color: #EFEFEF;
+margin-top: 250px;
+}
+.circles_new .circles_icon {
+    /*картинки иконок*/
+    margin: 50px auto 15px;
+    /*без нижнего маргина не получилось приподнять текст*/
+    position: relative;
+}
